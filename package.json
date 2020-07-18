@@ -1,0 +1,17 @@
+{
+  "name": "adapter-pattern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "build": "tsc",
+    "server": "ts-node-dev --respawn --transpile-only --no-notify ./index.ts"
+  },
+  "repository": "https://github.com/diegossl/Adapter-Pattern.git",
+  "author": "diegossl <diegossl94@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.52",
+    "typescript": "^3.9.7"
+  }
+}
